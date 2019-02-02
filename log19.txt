@@ -1,0 +1,88 @@
+== Info:   Trying 104.24.97.167...
+== Info: TCP_NODELAY set
+== Info: Connected to www.booleanworld.com (104.24.97.167) port 443 (#0)
+== Info: ALPN, offering h2
+== Info: ALPN, offering http/1.1
+== Info: successfully set certificate verify locations:
+== Info:   CAfile: C:/Program Files/Git/mingw64/ssl/certs/ca-bundle.crt
+  CApath: none
+=> Send SSL data, 5 bytes (0x5)
+0000: .....
+== Info: TLSv1.3 (OUT), TLS handshake, Client hello (1):
+=> Send SSL data, 512 bytes (0x200)
+0000: ........2e5.3....<...2.J..]Q.....x...@ .e..7H.|..R^.....3;u5a..Q
+0040: ./.D%;i.>.......,.0.........+./...$.(.k.#.'.g.....9.....3.....=.
+0080: <.5./.....u.........www.booleanworld.com........................
+00c0: 3t.........h2.http/1.1.........1.....0..........................
+0100: .......................+............-.....3.&.$... ..z...VP.....
+0140: ]|`E...1......r..k|.............................................
+0180: ................................................................
+01c0: ................................................................
+<= Recv SSL data, 5 bytes (0x5)
+0000: ....F
+== Info: TLSv1.3 (IN), TLS handshake, Server hello (2):
+<= Recv SSL data, 70 bytes (0x46)
+0000: ...B....f~...D.........G.7....uw..'$....0.......................
+0040: ....h2
+<= Recv SSL data, 5 bytes (0x5)
+0000: .....
+== Info: TLSv1.2 (IN), TLS handshake, Certificate (11):
+<= Recv SSL data, 3244 bytes (0xcac)
+0000: ..........0...0..........B....\Uir0...*.H........0T1.0...U....AO
+0040:  Kaspersky Lab1705..U....Kaspersky Anti-Virus Personal Root Cert
+0080: ificate0...180202095706Z..200202095706Z0l1!0...U....Domain Contr
+00c0: ol Validated1!0...U....PositiveSSL Multi-Domain1$0"..U....sni200
+0100: 397.cloudflaressl.com0.."0...*.H.............0..........}kGu..].
+0140: ..CG>....................vqL9.2..t.Pb..}.8.T-}^.0Z+T..#p...[%..2
+0180: .v....v!.L}...W.>.U.....Cc~...9....)~D......(n..8c..rH.g2..=..Y
+01c0: ;.i<.)..:..v.R.f..Oa. ..H.X..&......8...@....n.1...'..|>u..Fg...
+0200: ......ph/@wC...oVp.4W..\.J|.R..q1.{...:........G..............0
+0240: ...0...U........0.....U......0.....sni200397.cloudflaressl.com..
+0280: *.a-k.pw..*.allmovement.ru..*.atlantis.business..*.bafftaterre.g
+02c0: a..*.barnecessity.com..*.booleanworld.com..*.brgzeskos.cf..*.bsr
+0300: impex.com..*.dittadipulizie.it..*.elbo.in..*.emailformula.com..*
+0340: .fireexclusives.top..*.forteskincream.com..*.freshdumps.net..*.g
+0380: azettehop.com..*.giftuniverse.ru..*.inscoopveti.ml..*.jimmychoqo
+03c0: s.ga..*.latestmosts.top..*.mantevinlo.gq..*.nextapages.gq..*.nex
+0400: tapages.tk..*.nextresultts.ga..*.oqrpingtons.tk..*.pietermaritzb
+0440: urg.business..*.ractvakamil.ga..*.sipaifrs.tk..*.sleeklike.com..
+0480: *.sliparmoires.top..*.snugsofts.top..*.solutionc.net..*.stylefin
+04c0: es.top..*.tembisa.business..*.teologov.ru..*.termgentles.top..*.
+0500: transportcontracts.co.za..*.videoboy8.cf..*.virginiasluxurybags.
+0540: com..*.zerhners.cf..*.zirvekargo.com..a-k.pw..allmovement.ru..at
+0580: lantis.business..bafftaterre.ga..barnecessity.com..booleanworld.
+05c0: com..brgzeskos.cf..bsrimpex.com..dittadipulizie.it..elbo.in..ema
+0600: ilformula.com..fireexclusives.top..forteskincream.com..freshdump
+0640: s.net..gazettehop.com..giftuniverse.ru..inscoopveti.ml..jimmycho
+0680: qos.ga..latestmosts.top..mantevinlo.gq..nextapages.gq..nextapage
+06c0: s.tk..nextresultts.ga..oqrpingtons.tk..pietermaritzburg.business
+0700: ..ractvakamil.ga..sipaifrs.tk..sleeklike.com..sliparmoires.top..
+0740: snugsofts.top..solutionc.net..stylefines.top..tembisa.business..
+0780: teologov.ru..termgentles.top..transportcontracts.co.za..videoboy
+07c0: 8.cf..virginiasluxurybags.com..zerhners.cf..zirvekargo.com0...*.
+0800: H..............c.(jS.*D..w.}.b.S.9...[6o8.#s.......)l.:T.^..=...
+0840: .8t...N=._....x&...(p...y..8..0........s.N.....4hx..q.cRl..q...l
+0880: ......s.Z0wYY..u.......*. ."......nJ...)...........8q. .....>>Q.
+08c0: .}.........C+h1W....P...JF..._;.\..M....a~...L..5.:..^.Za*..."f=
+0900: .;.21..@n.g..g...0...0.........A....[..h0...*.H........0T1.0...
+0940: U....AO Kaspersky Lab1705..U....Kaspersky Anti-Virus Personal Ro
+0980: ot Certificate0...081124121328Z..281119121328Z0T1.0...U....AO Ka
+09c0: spersky Lab1705..U....Kaspersky Anti-Virus Personal Root Certifi
+0a00: cate0.."0...*.H.............0..........}kGu..]...CG>............
+0a40: ........vqL9.2..t.Pb..}.8.T-}^.0Z+T..#p...[%..2.v....v!.L}...W.>
+0a80: .U.....Cc~...9....)~D......(n..8c..rH.g2..=..Y;.i<.)..:..v.R.f.
+0ac0: .Oa. ..H.X..&......8...@....n.1...'..|>u..Fg.........ph/@wC...oV
+0b00: p.4W..\.J|.R..q1.{...:........G...........l0j0...U.......0....0
+0b40: 5..`.H...B...(.&{418E9E03-D103-43C0-8D9A-2550B8EC944E}0...U.....
+0b80: ...0...U.%..0...+.......0...*.H.............OW[.@...$&xqd ..ZY\.
+0bc0: .>f...\J[....q.28...5i ......T.uj.). *.o....>..........i..z.n.D.
+0c00: ....vQ.U:.`../.Al)...^9-0.)o...u.........6H...+.k.U/..u...r..o.W
+0c40: 3 .6..V.0.w...#.!ARvTx.?....KL...{..y.?..B.$.7.en2C5..'.M.e{...
+0c80: Tz......oDt..n..q...o#G..W...H.P}<.f..M.BY..
+=> Send SSL data, 5 bytes (0x5)
+0000: .....
+== Info: TLSv1.2 (OUT), TLS alert, unknown CA (560):
+=> Send SSL data, 2 bytes (0x2)
+0000: .0
+== Info: SSL certificate problem: self signed certificate in certificate chain
+== Info: Closing connection 0
